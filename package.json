@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-admob-mediation-adcolony",
+    "version": "0.1.0",
+    "description": "Cordova AdMob Mediation Plugin for AdColony",
+    "cordova": {
+        "id": "cordova-plugin-admob-mediation-adcolony",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Junker/cordova-plugin-admob-mediation-adcolony.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova",
+        "plugin",
+        "ad",
+        "admob",
+        "adcolony",
+        "mediation"
+    ],
+    "author": "Junker",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Junker/cordova-plugin-admob-mediation-adcolony/issues"
+    },
+    "homepage": "https://github.com/Junker/cordova-plugin-admob-mediation-adcolony"
+}

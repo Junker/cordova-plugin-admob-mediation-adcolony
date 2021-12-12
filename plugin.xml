@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-admob-mediation-adcolony"
+    version="0.1.0">
+
+    <name>cordova-plugin-admob-mediation-adcolony</name>
+    <description>Cordova AdMob Mediation Plugin for AdColony</description>
+    <keywords>admob,mediation,adcolony</keywords>
+    <license>MIT</license>
+
+    <platform name="android">
+        <framework src="com.google.ads.mediation:adcolony:4.6.+" />
+    </platform>
+
+    <platform name="ios">
+        <podspec>
+          <config>
+            <source url="https://cdn.cocoapods.org/"/>
+          </config>
+          <pods use-frameworks="true">
+            <pod name="GoogleMobileAdsMediationAdColony" spec="~> 4.7"/>
+          </pods>
+        </podspec>
+    </platform>
+</plugin>
