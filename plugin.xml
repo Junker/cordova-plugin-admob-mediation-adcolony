@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-admob-mediation-adcolony"
-    version="0.1.0">
+    version="0.1.1">
 
     <name>cordova-plugin-admob-mediation-adcolony</name>
     <description>Cordova AdMob Mediation Plugin for AdColony</description>
@@ -12,6 +12,10 @@
 
     <platform name="android">
         <framework src="com.google.ads.mediation:adcolony:4.6.+" />
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.VIBRATE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
     </platform>
 
     <platform name="ios">

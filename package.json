@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-admob-mediation-adcolony",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Cordova AdMob Mediation Plugin for AdColony",
     "cordova": {
         "id": "cordova-plugin-admob-mediation-adcolony",
