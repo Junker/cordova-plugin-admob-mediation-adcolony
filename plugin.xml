@@ -11,7 +11,7 @@
     <license>MIT</license>
 
     <platform name="android">
-        <framework src="com.google.ads.mediation:adcolony:4.6.+" />
+        <framework src="com.google.ads.mediation:adcolony:4.8.+" />
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.VIBRATE" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -24,7 +24,7 @@
             <source url="https://cdn.cocoapods.org/"/>
           </config>
           <pods use-frameworks="true">
-            <pod name="GoogleMobileAdsMediationAdColony" spec="~> 4.7"/>
+            <pod name="GoogleMobileAdsMediationAdColony" spec="~> 4.9"/>
           </pods>
         </podspec>
     </platform>
