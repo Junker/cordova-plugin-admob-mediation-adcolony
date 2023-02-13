@@ -11,7 +11,7 @@
     <license>MIT</license>
 
     <platform name="android">
-        <framework src="com.google.ads.mediation:adcolony:4.8.+" />
+        <framework src="com.google.ads.mediation:adcolony:4.8.0.0" />
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.VIBRATE" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
